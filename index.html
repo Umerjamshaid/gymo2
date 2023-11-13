@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage Template</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Custom styles for enhanced appearance */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+      font-size: 1.1rem;
+    }
+    .jumbotron {
+      background-image: url('image/top-view-workspace-with-notebook-notepad.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+      padding: 200px 0;
+      margin-bottom: 0;
+    }
+    .jumbotron h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+      margin-left: 30px;
+    }
+    .jumbotron p {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+    .btn-primary {
+      background-color: #3498db;
+      border-color: #3498db;
+      font-size: 1.2rem;
+    }
+    .btn-primary:hover {
+      background-color: #2980b9;
+      border-color: #2980b9;
+    }
+    section {
+      padding: 50px 0;
+      text-align: left;
+    }
+    section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+    .section p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    /* akshdkajshdasdjasd */
+    .butt{
+      background-color: #ee9b00;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: solid;
+      display: inline;
+      font-size: small;
+      border-radius: 8px;
+    }
+
+    .ton{
+      margin: 50px;
+      margin-right: auto;
+      padding-right: 50px ;
+      padding-left: 50px;
+    }
+    /* form */
+    input[type=text], select {
+  /* width: 100; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: #ee9b00;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #2b2d42;
+}
+
+.in-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  height: 50px;
+}
+    /* form */
+    .how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.how-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+}
+    /* asldksajdas;lkdjalsk */
+    .footer-clean {
+  padding:50px 0;
+  background-color:#2b2d42;
+  color:#ee9b00;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">YOU ONLY FAIL</h1>
+      <p class="lead">WHEN YOU STOP TRYING.</p>
+      <a href="#" class="btn btn-primary">JION THE FORCE</a>
+    </div>
+  </header>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <blockquote>ABOUT GYMO</blockquote>
+        <h2>WELCOME TO US</h2>   
+                      <p class="text-muted">All invoices and payments happen through GetLance. Count on a simple and streamlined process.
+                          Hourly and fixed-price projects. For hourly work, submit timesheets through GetLance. For fixed-price jobs, set milestones and funds are released via GetLance escrow features.
+                          Multiple payment options. Choose a payment method that works best for you, from direct deposit or PayPal to wire transfer and more.</p>
+      </div>
+      <div class="col-md-6 how-img">
+          <img src="image/Premium Photo _ Flat lay of desktop with laptop and copy space.jpeg"  alt=""/>
+      </div>
+  </div>
+    
+  </section>
+
+  <div class="col-md-6">
+    <h2>what Is Your (BMI)</h2>
+    <blockquote>Body mass index (BMI) is a meature of body fat based on height and Weight that apples to adult men and women </blockquote>
+  </div>
+
+  <div class="ton">
+  <button type="button" class="butt" id="butt-butt1">STANDART</button>
+  <button type="button" class="butt" id="butt-butt1">METRIC</button>
+  </div>
+  <div>
+    <!-- form -->
+    <div class="in-form"></div>
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </select>
+    <br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="Submit">
+    </form>
+    </div>
+<!-- end form -->
+  <footer>
+    <div class="footer-clean">
+      <footer>
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-sm-4 col-md-3 item">
+                      <h3>Services</h3>
+                      <ul>
+                          <li><a href="#">Web design</a></li>
+                          <li><a href="#">Development</a></li>
+                          <li><a href="#">Hosting</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4 col-md-3 item">
+                      <h3>About</h3>
+                      <ul>
+                          <li><a href="#">Company</a></li>
+                          <li><a href="#">Team</a></li>
+                          <li><a href="#">Legacy</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4 col-md-3 item">
+                      <h3>Careers</h3>
+                      <ul>
+                          <li><a href="#">Job openings</a></li>
+                          <li><a href="#">Employee success</a></li>
+                          <li><a href="#">Benefits</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                      <p class="copyright">Company Name © 2018</p>
+                  </div>
+              </div>
+          </div>
+      </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/js/bootstrap.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
